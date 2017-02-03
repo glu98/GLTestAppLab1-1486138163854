@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: GLTestAppLab1
+  host: GLTestAppLab1
+  disk_quota: 1024M
+  services:
+  - bootcamp-ismaeel-messagehub
+  - GLTestAppLab1-cloudantNoSQLDB
+  - GLTestAppLab1-iotf-service
